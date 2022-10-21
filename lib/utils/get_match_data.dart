@@ -7,7 +7,7 @@ Future<List<dynamic>> getMatchData() async {
   List<List> matchDataTable = [
     [
       "Team",
-      "Match Number",
+      "Team Number",
       "Taxi",
       "Auto Low Goal Scored",
       "Auto High Goal Scored",
