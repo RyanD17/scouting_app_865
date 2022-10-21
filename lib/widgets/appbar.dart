@@ -88,8 +88,8 @@ class _CustomAppBarState extends State<CustomAppBar> {
           const Text("Team Number:"),
           const SizedBox(width: 5),
           SizedBox(
-            width: 50,
-            height: 25,
+            width: 54,
+            height: 30,
             child: TextFormField(
               maxLength: 4,
               keyboardType: TextInputType.number, // brings up numpad on mobile
