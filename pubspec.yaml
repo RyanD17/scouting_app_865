@@ -1,0 +1,49 @@
+name: scouting_app_865
+description: FRC Team 865's Scouting App
+
+publish_to: "none"
+
+version: 1.3.1+6
+
+environment:
+    sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+    flutter:
+        sdk: flutter
+    shared_preferences: ^2.0.13
+    qr_flutter: ^4.0.0
+    csv: ^5.0.1
+    gsheets: ^0.4.2
+
+dev_dependencies:
+    flutter_test:
+        sdk: flutter
+    flutter_lints: ^1.0.0
+    flutter_launcher_icons: ^0.10.0
+    flutter_app_name: ^0.1.0
+
+flutter_icons:
+    android: true
+    image_path: "assets/icon_circular.png"
+    web:
+        generate: true
+    windows:
+        generate: true
+
+
+flutter_app_name:
+    name: "Scouting App"
+
+flutter:
+    uses-material-design: true
+
+# Notes
+#
+# Manual changes outside of lib folder:
+# - added to /android/app/src/main/AndroidManifest.xml <uses-permission android:name="android.permission.INTERNET"/>
+# - added icons in /assets
+#
+# Processes:
+# - for app icon, adjust flutter_icons configuration (in this file), and run: flutter pub run flutter_launcher_icons:main
+# 
